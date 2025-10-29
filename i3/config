@@ -60,7 +60,7 @@ bindsym $mod+Shift+Return exec i3-sensible-terminal -T nnn -e nnn &
 bindsym $mod+Shift+q kill
 
 # Suspend
-bindsym $mod+Escape exec --no-startup-id i3lock
+bindsym $mod+Escape exec --no-startup-id i3lock --color 000000
 
 # start i3-dmenu-desktop (a program launcher that uses .desktop files)
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
