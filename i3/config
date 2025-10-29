@@ -55,6 +55,8 @@ tiling_drag modifier titlebar
 bindsym $mod+Return exec i3-sensible-terminal
 # open filebrowser at ~
 bindsym $mod+Shift+Return exec i3-sensible-terminal -T nnn -e nnn &
+# open webbrowser
+bindsym $mod+Shift+B exec "/home/lyb/tools/qutebrowser/.venv/bin/python -m qutebrowser"
 
 # kill focused window
 bindsym $mod+Shift+q kill
